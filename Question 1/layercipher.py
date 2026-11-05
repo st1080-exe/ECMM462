@@ -102,13 +102,13 @@ def blockDeposition(input, permutation):
 
 # encrypts a text by ceasar shift and then block transposition
 def e(shift, permutation, plaintext):
-    cipherText =  (blockTransposition(ceasarShift(plaintext,shift),permutation))
+    cipherText =  ceasarShift(blockTransposition(plaintext, permutation),shift)
     print(cipherText)
     return cipherText
 
 # encrypts a text by undoing the block transposition and then ceasar shift
 # the ceasar shift decription doesnt require a seperate un-doing function since the algorithm works with a negative shift as well
 def d(shift, permutation, ciphertext):
-    plaintext = (ceasarShift(blockDeposition(ciphertext, permutation), -shift))
+    plaintext = blockDeposition(ceasarShift(ciphertext, -shift), permutation)
     print(plaintext)
     return plaintext
