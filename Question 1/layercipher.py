@@ -1,5 +1,5 @@
 # ECMM462 Continuous Assessment
-# Question 1 part 1 and 2 code
+# Question 1 part 2 code
 # Takes a text and applies the ceasar shift and then block transposition
 # Takes a cipher text and reverts block transposition and ceasar shift
 

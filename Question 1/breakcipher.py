@@ -1,3 +1,7 @@
+# ECMM462 Continuous Assessment
+# Question 1 part 3 code
+# Takes a plain text, its corresponsing cipher text, and an unknown cipher text and figures out the ceasar shift and the block permutation
+# It then returns these 2 values along with the plain text from the previously unknown cipher text
 
 fillerLetter = "X"
 

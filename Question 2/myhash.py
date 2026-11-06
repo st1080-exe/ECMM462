@@ -1,3 +1,6 @@
+# ECMM462 Continuous Assessment
+# Question 2 part 2 code
+# Gets an input of hash values from the user and outputs the result of ROTL and XOR of the values
 
 # test variables
 x1 = "10110110"
